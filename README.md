@@ -49,19 +49,14 @@ This project was built to provide an accessible web interface for sentiment and 
 
 # Prerequisites
 
-Before running the application, make sure you have the following installed:
-
-Python 3.x (preferably the latest version)
-
-Flask: Python web framework to run the server
-
-PyTorch (for the sentiment and emotion analysis models)
-
-Transformers library (for loading pre-trained models)
-
-scikit-learn (if you're using additional tools for model preprocessing)
-
-Numpy and Pandas (for data manipulation)
+## Can be installed through the requirements.txt file
+Before running the application, make sure you have the following installed:  
+Python 3.x (preferably the latest version)  
+Flask: Python web framework to run the server  
+PyTorch
+Transformers library
+scikit-learn  
+Numpy and Pandas  
 
 # Final Training Metrics (Sentiment Analysis)
 Training Loss: 0.178  
