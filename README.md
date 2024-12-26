@@ -83,12 +83,9 @@ scikit-learn (if you're using additional tools for model preprocessing)
 
 Numpy and Pandas (for data manipulation)
 
-Final Training Metrics (Sentiment Analysis)
-
+# Final Training Metrics (Sentiment Analysis)
 Training Loss: 0.178
-
 Validation Loss: 0.470
-
 Accuracy: 86.5%
 
 You can fork this repository and use it for your own projects or further customizations. This tool provides both sentiment and emotional insights, making it an invaluable resource for understanding textual data.
