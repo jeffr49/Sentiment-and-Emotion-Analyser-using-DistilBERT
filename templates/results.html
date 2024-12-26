@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result</title>
+    <style>
+        body {
+            background-color: #222;
+            color: white;
+            font-family: Arial, sans-serif;
+            background-image: url('static/img3.jpg');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            width: 80%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .result-container {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+            margin-top: 20px;
+            text-align: left;
+            width: 100%;
+            max-width: 600px;
+        }
+        .result-container h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .result-container p {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        .result-container .probabilities {
+            font-size: 1rem;
+            margin-top: 20px;
+            text-align: right;
+        }
+        .input-text {
+            font-weight: bold;
+        }
+        .back-button {
+            background-color: #444;
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            margin-top: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            width: auto;
+        }
+        .back-button:hover {
+            background-color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sentiment and Emotion Analysis Result</h1>
+        
+        <div class="result-container">
+            <p><strong>Input Text:</strong> <span class="input-text" id="input-text"></span></p>
+            <p id="result-text">Loading...</p>
+            <p><strong>Emotion:</strong> <span id="emotion"></span></p>
+            <div class="probabilities">
+                <p><strong>Negative:</strong> <span id="negative-prob"></span></p>
+                <p><strong>Neutral:</strong> <span id="neutral-prob"></span></p>
+                <p><strong>Positive:</strong> <span id="positive-prob"></span></p>
+            </div>
+        </div>
+        
+        <button class="back-button" onclick="window.history.back()">Go Back</button>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const text = urlParams.get('text');
+        
+        fetch(`/analyze?text=${encodeURIComponent(text)}`)
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('input-text').innerText = text;
+                document.getElementById('result-text').innerText = `Sentiment: ${data.sentiment}`;
+                document.getElementById('emotion').innerText = data.emotion;
+                document.getElementById('negative-prob').innerText = data.probabilities.negative.toFixed(4);
+                document.getElementById('neutral-prob').innerText = data.probabilities.neutral.toFixed(4);
+                document.getElementById('positive-prob').innerText = data.probabilities.positive.toFixed(4);
+            })
+            .catch(error => {
+                document.getElementById('result-text').innerText = 'Error: Could not analyze text.';
+            });
+    </script>
+</body>
+</html>
