@@ -59,7 +59,7 @@ Use in Marketing: Tailor strategies based on customers' emotional responses.
 
 With real-time results and clear presentation, this tool helps users make data-driven decisions with ease.
 
-Why We Built This?
+# Why We Built This?
 
 The need for sentiment and emotion analysis tools is growing rapidly as companies and individuals strive to understand public opinion and feedback in an efficient way. With the massive amounts of text data produced daily, it's important to have a tool that quickly identifies both sentiment and emotions without manually reading each piece of content.
 
