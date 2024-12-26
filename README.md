@@ -14,50 +14,30 @@ https://drive.google.com/drive/folders/1YEmm0SniMUmwC--PedwjBorrZZTkhVnJ?usp=sha
 Presentation of the Working Model
 
 # Features
-
-Sentiment Analysis
-
-Classifies text into three categories: Positive, Neutral, and Negative.
-
-Displays associated probabilities for each category.
-
-Emotion Detection
-
-Identifies the dominant emotion in the input text using a pre-trained emotion detection model.
-
-Supports multiple emotion categories, enhancing the depth of text analysis.
-
-Real-time Results
-
-Users can see analysis results immediately after entering text.
-
-Interactive UI
-
-Clean and user-friendly interface with a responsive layout.
-
-Navigation and Results Display
-
-Back button for easy navigation.
-
-Results display the input text in bold, the sentiment classification, probabilities, and the detected emotion.
+Sentiment Analysis  
+Classifies text into three categories: Positive, Neutral, and Negative.  
+Displays associated probabilities for each category.  
+Emotion Detection  
+Identifies the dominant emotion in the input text using a pre-trained emotion detection model.  
+Supports multiple emotion categories, enhancing the depth of text analysis.  
+Real-time Results  
+Users can see analysis results immediately after entering text.  
+Interactive UI  
+Clean and user-friendly interface with a responsive layout.  
+Navigation and Results Display  
+Back button for easy navigation.  
+Results display the input text in bold, the sentiment classification, probabilities, and the detected emotion.  
 
 # Why Use This?
 
-Sentiment Analysis Tool
-
-Customer Feedback Analysis: Analyze reviews, comments, or feedback to determine customer sentiment.
-
-Social Media Sentiment Tracking: Monitor the sentiment of posts or tweets on specific topics or brands.
-
-Text Analytics: Gain insights from large amounts of text data by automatically classifying sentiments.
-
-Emotion Detection Tool
-
-Enhanced Insights: Go beyond sentiment and understand the emotional undertone of textual data.
-
-Use in Marketing: Tailor strategies based on customers' emotional responses.
-
-With real-time results and clear presentation, this tool helps users make data-driven decisions with ease.
+Sentiment Analysis Tool  
+Customer Feedback Analysis: Analyze reviews, comments, or feedback to determine customer sentiment.  
+Social Media Sentiment Tracking: Monitor the sentiment of posts or tweets on specific topics or brands.  
+Text Analytics: Gain insights from large amounts of text data by automatically classifying sentiments.  
+Emotion Detection Tool  
+Enhanced Insights: Go beyond sentiment and understand the emotional undertone of textual data.  
+Use in Marketing: Tailor strategies based on customers' emotional responses.  
+With real-time results and clear presentation, this tool helps users make data-driven decisions with ease.  
 
 # Why We Built This?
 
