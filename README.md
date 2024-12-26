@@ -11,7 +11,7 @@ https://drive.google.com/file/d/1AUcoTg2S8nUC3kDLOgNReAGXP1cXy2gR/view?usp=shari
 https://drive.google.com/drive/folders/1YEmm0SniMUmwC--PedwjBorrZZTkhVnJ?usp=sharing
 
 # Live Working Explanation
-Presentation of the Working Model
+[Presentation of the Working Model](https://github.com/jeffr49/Sentiment-and-Emotion-Analyser-using-DistilBERT/blob/main/web_workingmodel.pptx)
 
 # Features
 Sentiment Analysis  
