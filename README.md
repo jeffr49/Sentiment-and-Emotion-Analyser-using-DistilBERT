@@ -50,7 +50,8 @@ This project was built to provide an accessible web interface for sentiment and 
 # Prerequisites
 
 Can be installed through the [requirements](https://github.com/jeffr49/Sentiment-and-Emotion-Analyser-using-DistilBERT/blob/main/requirements.txt) file
-Before running the application, make sure you have the following installed:  
+
+Else before running the application, make sure you have the following installed:  
 Python 3.x (preferably the latest version)  
 Flask: Python web framework to run the server  
 PyTorch
