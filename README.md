@@ -5,10 +5,10 @@
 This project is a Sentiment Analysis Web Application designed to analyze the sentiment of input text and detect emotions. It uses a trained sentiment analysis model to classify text into positive, neutral, or negative categories with associated probabilities. Additionally, the application includes emotion detection capabilities, identifying the dominant emotion in the input text. This web app provides an easy-to-use interface for users to input text and view the sentiment analysis and emotion detection results in real-time.
 
 # Dataset
-https://drive.google.com/file/d/1AUcoTg2S8nUC3kDLOgNReAGXP1cXy2gR/view?usp=sharing
+[Dataset for training the sentiment model](https://drive.google.com/file/d/1AUcoTg2S8nUC3kDLOgNReAGXP1cXy2gR/view?usp=sharing)
 
 # Trained Model
-https://drive.google.com/drive/folders/1YEmm0SniMUmwC--PedwjBorrZZTkhVnJ?usp=sharing
+[Sentiment Model Files](https://drive.google.com/drive/folders/1YEmm0SniMUmwC--PedwjBorrZZTkhVnJ?usp=sharing)
 
 # Live Working Explanation
 [Presentation of the Working Model](https://github.com/jeffr49/Sentiment-and-Emotion-Analyser-using-DistilBERT/blob/main/web_workingmodel.pptx)
